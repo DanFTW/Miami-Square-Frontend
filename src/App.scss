@@ -1,0 +1,62 @@
+@use "./styles/partials/fonts" as *;
+@use "./styles/partials/colors" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 400;
+  font-size: .9rem;
+
+  &:hover {
+    color: $pink;
+  }
+
+  &.current{
+    font-weight: 700;
+    color: black;
+  }
+
+  
+}
+
+body {
+  color: black;
+  font-family: "Lexend";
+}
+
+#footer-logo {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#logo-aqua {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+#card-header {
+  font-weight: 500;
+}
+
+#card-sub {
+  font-weight: 400;
+}
+
+#location {
+  font-size: 1.2rem;
+}
+
+.info {
+  color: black;
+  margin-bottom: 1rem;
+
+  &:hover {
+    color: #00979c;
+  }
+}

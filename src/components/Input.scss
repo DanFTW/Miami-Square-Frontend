@@ -1,0 +1,32 @@
+
+
+.field {
+  width: 100%;
+  padding: 0.5rem;
+
+  &__items {
+    // border: 2px solid black;
+    padding: 0.2rem;
+  }
+
+  &__label {
+    font-size: .9rem;
+    font-weight: 600;
+  }
+
+  &__input {
+    border: 2px solid #e198ad;
+    padding: 0.5rem;
+    color: black;
+    width: 100%;
+    border-radius: .5rem;
+    background-color: white;
+    height: 2.5rem;
+    margin-top: .2rem;
+
+    &:focus,
+    &:active {
+      border: 2px solid #e1d198;
+    }
+  }
+}
