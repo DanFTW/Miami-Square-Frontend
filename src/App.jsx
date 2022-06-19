@@ -3,14 +3,14 @@ import styled from "styled-components";
 import NavBar from "./components/NavBar";
 import { BrowserRouter } from "react-router-dom";
 import Candidates from "./pages/Candidates";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 const Nav = styled.div`
   width: 100%;
 `;
 
 const MainContent = styled.div`
-  margin: 1rem 0;
+  margin: 2rem 0 1rem 0;
   width: 100%;
 `;
 
@@ -18,8 +18,8 @@ const WholeContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
-  padding: 0 8rem 1rem 8rem;
+  padding: 0 15rem 1rem 15rem;
+  margin: 0 5rem;
 `;
 
 const Bottom = styled.div`
@@ -37,7 +37,7 @@ function App() {
           <Candidates />
         </MainContent>
         <Bottom>
-          <Footer />
+          {/* <Footer /> */}
         </Bottom>
       </WholeContainer>
     </BrowserRouter>

@@ -36,7 +36,7 @@ const ProfileImage = styled.div`
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
-  background: black;
+  background: #00979c;
   margin: 0 1rem 0 0;
 `;
 
@@ -84,8 +84,8 @@ export default function NavBar({}) {
         <UserCont>
           <ProfileImage />
           <InfoCont>
-            <ProfileInfo>Daniel Figueroa</ProfileInfo>
-            <ProfileInfo>@Dan123</ProfileInfo>
+            <ProfileInfo>John Doe</ProfileInfo>
+            <ProfileInfo>@whutitdo_doe</ProfileInfo>
           </InfoCont>
         </UserCont>
       </Nav>

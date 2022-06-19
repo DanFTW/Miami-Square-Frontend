@@ -1,6 +1,4 @@
 .modal {
-  // display: none;
-
   display: flex;
   opacity: 0;
   visibility: hidden;
@@ -9,10 +7,8 @@
   left: -100;
   top: -100;
   width: 100%;
-  // height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
-  // transition: 0.3s ease-in-out;
 
   &.active {
     opacity: 1;
@@ -26,17 +22,13 @@
 
   &__content {
     width: 30rem;
-    margin: 15% auto;
+    margin: 10% auto;
     position: relative;
     transition: inherit;
     opacity: 0;
     visibility: hidden;
     transform: translateY(0);
     background-color: #98dddf;
-    // background-color: lightgrey;
-    // border-style: outset;
-    // border-color: grey;
-    // border-width: 0.3rem;
     box-shadow: 5px 5px 5px rgba(19, 24, 44, 0.5);
     height: fit-content;
     padding: 1rem;
@@ -52,7 +44,6 @@
   &__header {
     padding: 0 0 0 0.2rem;
     vertical-align: center;
-    // background-color: silver;
   }
 
   &__title {
@@ -68,18 +59,9 @@
   }
 
   &__body {
-    // margin: 2rem;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-    // text-align: center;
     font-size: 1.2rem;
-  }
-
-  &__p {
-    margin: 0.75rem 0 0;
-    color: red;
   }
 
   &__end {

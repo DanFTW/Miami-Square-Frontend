@@ -4,26 +4,26 @@ import { Nav, Items } from "../styles/styles";
 const menuItems = [
   {
     id: "1",
+    title: "About",
+    path: "/",
+  },
+  {
+    id: "2",
     title: "Experience",
     path: "/candidates/experience",
   },
   {
-    id: "2",
+    id: "3",
     title: "Education",
     path: "/candidates/education",
   },
   {
-    id: "3",
-    title: "Jobs",
-    path: "/candidates/jobs",
-  },
-  {
-    id: "4",
+    id: "5",
     title: "Badges",
     path: "/candidates/badges",
   },
   {
-    id: "5",
+    id: "6",
     title: "Activity",
     path: "/candidates/activity",
   },

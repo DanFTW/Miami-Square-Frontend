@@ -16,6 +16,7 @@ import {
   Image,
   NavCont,
   Buttons,
+  Copy,
 } from "../styles/styles";
 
 export default function Experience() {
@@ -24,15 +25,10 @@ export default function Experience() {
   return (
     <>
       <NavCont>
-        <Link
-          to='#'
-          onClick={() => setShowModal(true)}
-          className="info"
-        >
+        <Link to='#' onClick={() => setShowModal(true)} className='info'>
           + Add Experience
         </Link>
         <Modal show={showModal} setShow={setShowModal}>
-          <ModalHeader></ModalHeader>
           <ModalBody>
             <Input type='text' name='experience' label='Title' />
             <Input type='text' name='firm' label='Firm' />
@@ -42,7 +38,9 @@ export default function Experience() {
           </ModalBody>
           <ModalFooter>
             <div className='modal__button'>
-              <Buttons onClick={() => setShowModal(false)}>Submit</Buttons>
+              <Buttons id='modal-btn' onClick={() => setShowModal(false)}>
+                Submit
+              </Buttons>
               <Buttons onClick={() => setShowModal(false)}>Cancel</Buttons>
             </div>
           </ModalFooter>
@@ -54,7 +52,7 @@ export default function Experience() {
           <Info>
             <Header id='card-header'>Software Developer</Header>
             <SubHeader id='card-sub'>Apple - Full-Time</SubHeader>
-            <SubHeader id='card-sub'>Dec 2020 - Present</SubHeader>
+            <Copy id='card-sub'>Dec 2020 - Present</Copy>
           </Info>
           <Info>
             <SubHeader id='location'>
@@ -69,7 +67,7 @@ export default function Experience() {
           <Info>
             <Header id='card-header'>Software Developer</Header>
             <SubHeader id='card-sub'>Apple - Full-Time</SubHeader>
-            <SubHeader id='card-sub'>Dec 2020 - Present</SubHeader>
+            <Copy id='card-sub'>Dec 2020 - Present</Copy>
           </Info>
           <Info>
             <SubHeader id='location'>
