@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import logos from "../assets/logo/footer-logo.svg";
+import logos from "../assets/logo/new-tab-logo.svg";
 
 const LogoCont = styled.div`
   border-top: 1.5rem solid #00979c;
@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <>
       <LogoCont>
-        <img src={logos} id='footer-logo' />
+        {/* <img src={logos} id='footer-logo' /> */}
       </LogoCont>
     </>
   );
